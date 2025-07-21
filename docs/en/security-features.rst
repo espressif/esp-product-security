@@ -5,12 +5,8 @@ Security Features
 
 Espressif SoCs are designed with a comprehensive set of security features to protect devices, data, and communications throughout their lifecycle. This guide provides an overview of the key security mechanisms available across Espressif platforms, with references to the ESP-IDF Programming Guide, SoC Technical Reference Manuals (TRMs), and datasheets for further details.
 
-.. contents::
-   :local:
-   :depth: 2
-
 Espressif SoC Security & Crypto Feature Matrix
-==============================================
+-----------------------------------------------
 
 .. list-table:: Espressif SoC Security & Crypto Feature Matrix
    :header-rows: 1

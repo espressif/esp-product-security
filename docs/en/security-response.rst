@@ -21,7 +21,7 @@ For more details, see:
 - `ESP-IDF Security Advisories <https://github.com/espressif/esp-idf/security/advisories>`_
 
 ESP-IDF Security Fixes Policy
-=============================
+-----------------------------
 
 Each ESP-IDF major and minor release version receives security fixes for 30 months after its initial stable release date. After this support period, the release is considered End of Life (EOL) and no longer receives security updates. Users are strongly encouraged to upgrade to a supported ESP-IDF release to ensure continued receipt of security fixes.
 

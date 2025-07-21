@@ -37,10 +37,6 @@ This section highlights the key security certifications achieved across Espressi
      -
      -
 
-.. contents::
-   :local:
-   :depth: 2
-
 Platform Security Certifications
 --------------------------------
 
