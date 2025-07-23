@@ -3,35 +3,40 @@
 Security Certifications
 =======================
 
-Espressif Systems is committed to delivering secure-by-design solutions for the Internet of Things (IoT). As part of this commitment, we pursue and maintain multiple security certifications across our product portfolio. These certifications validate the robustness of our platform security and assure customers that Espressif SoCs meet recognized industry security standards.
+Espressif Systems is committed to delivering secure-by-design solutions for the Internet of Things (IoT). As part of this commitment, we pursue and maintain multiple security certifications across our product portfolio spanning both Xtensa and RISC-V architectures. These certifications validate the robustness of our platform security and assure customers that Espressif SoCs meet recognized industry security standards.
 
 This section highlights the key security certifications achieved across Espressif SoCs and Products:
 
 .. list-table:: Espressif Security Certifications Summary
    :header-rows: 1
-   :widths: 25 15 15 15 15
+   :widths: 20 10 15 15 15 15
 
    * - SoC/Product
+     - Architecture
      - PSA Level 1
      - PSA Level 2
      - CLS-Ready
      - CSA Verified Mark
    * - ESP32-C3 Series (includes ESP-Zerocode Light Bulb)
+     - RISC-V
      - ✓
      -
      - ✓
      - ✓
    * - ESP32-S3 Series
+     - Xtensa
      - ✓
      -
      -
      -
    * - ESP32-H2 Series
+     - RISC-V
      - ✓
      -
      -
      -
    * - ESP32-C6 Series
+     - RISC-V
      -
      - ✓
      -
@@ -58,7 +63,7 @@ The following Espressif SoCs have achieved **PSA Certified Level 1 (PSA-L1)** ce
 
 The following Espressif SoCs have achieved **PSA Certified Level 2 (PSA-L2)** certification:
 
-- `ESP32-C6 Series <https://products.psacertified.org/products/esp32-c6>`_
+- `ESP32-C6 Series <https://products.psacertified.org/products/esp32-c6>`_ - **World's first PSA L2 Certified microcontroller**
 
 **CLS-Ready Certification**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

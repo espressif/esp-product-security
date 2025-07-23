@@ -84,12 +84,12 @@ Security-by-Design Workflow
     - Monitor device security status and health
     - Plan end-of-life security considerations
 
-Threat Modeling for ESP32 Products
-----------------------------------
+Threat Modeling for Espressif Products
+---------------------------------------
 
 **STRIDE Threat Analysis Framework**
 
-Apply STRIDE methodology to ESP32-based products:
+Apply STRIDE methodology to Espressif-based products (both Xtensa and RISC-V architectures):
 
 - **Spoofing:** Device identity, certificates, network communications
 - **Tampering:** Firmware modification, hardware attacks, configuration changes
@@ -132,8 +132,9 @@ Apply STRIDE methodology to ESP32-based products:
 
 *Software Protection*
 
-- Implement memory protection and code isolation
+- Implement memory protection and code isolation (PMS/PMP on RISC-V, MPU on Xtensa)
 - Use hardware cryptographic accelerators for secure operations
+- Consider ESP-TEE framework for RISC-V based SoCs requiring advanced isolation
 - Validate all inputs and implement secure coding practices
 - Implement secure error handling and logging
 

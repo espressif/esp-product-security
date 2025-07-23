@@ -47,10 +47,10 @@ This repository contains **Product Security** resources, documentation and guide
     </style>
 
     <div class="security-grid">
-        <a href="security-frameworks.html" class="security-card">
-            <div class="security-icon">🛡️</div>
-            <div class="security-title">Security Frameworks</div>
-            <div class="security-description">ESP-TEE and trusted execution environments for hardware-enforced isolation</div>
+        <a href="security-features.html" class="security-card">
+            <div class="security-icon">🔒</div>
+            <div class="security-title">Security Features</div>
+            <div class="security-description">Comprehensive security matrix, platform protection and crypto capabilities</div>
         </a>
         
         <a href="security-certifications.html" class="security-card">
@@ -59,10 +59,10 @@ This repository contains **Product Security** resources, documentation and guide
             <div class="security-description">PSA Certified, CLS-Ready, CSA verified marks and industry standards</div>
         </a>
         
-        <a href="security-features.html" class="security-card">
-            <div class="security-icon">🔒</div>
-            <div class="security-title">Security Features</div>
-            <div class="security-description">Comprehensive security matrix, platform protection and crypto capabilities</div>
+        <a href="security-frameworks.html" class="security-card">
+            <div class="security-icon">🛡️</div>
+            <div class="security-title">Security Frameworks</div>
+            <div class="security-description">ESP-TEE and trusted execution environments for hardware-enforced isolation</div>
         </a>
         
         <a href="security-implementation.html" class="security-card">
@@ -94,9 +94,9 @@ This repository contains **Product Security** resources, documentation and guide
    :hidden:
    :maxdepth: 1
 
-   security-frameworks
-   security-certifications
    security-features
+   security-certifications
+   security-frameworks
    security-implementation
    security-response
    security-resources
