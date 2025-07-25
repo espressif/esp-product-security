@@ -63,7 +63,7 @@ The following Espressif SoCs have achieved **PSA Certified Level 1 (PSA-L1)** ce
 
 The following Espressif SoCs have achieved **PSA Certified Level 2 (PSA-L2)** certification:
 
-- `ESP32-C6 Series <https://products.psacertified.org/products/esp32-c6>`_ - **World's first PSA L2 Certified microcontroller**
+- `ESP32-C6 Series <https://products.psacertified.org/products/esp32-c6>`_ - **World's first PSA-L2 Certified RISC-V MCU**
 
 **CLS-Ready Certification**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,9 +83,35 @@ The following Espressif product has received the **CSA PSWG Verified Mark**:
 
 - `ESP-Zerocode Light Bulb (based on ESP32-C3) <https://verified.csa-iot.org/fkk-q3mk/>`_
 
+RED-DA Compliance Support
+-------------------------
+
+**EU Radio Equipment Directive Delegated Act (RED-DA)**
+
+*The EU RED Delegated Act establishes mandatory cybersecurity requirements for radio equipment sold in the EU market, with compliance required by August 1, 2025. Espressif provides comprehensive support to help manufacturers achieve RED-DA compliance through platform security features and streamlined documentation processes.*
+
+**Key Compliance Requirements:**
+
+- **Network Connection Protection**: Secure communication protocols and access controls
+- **Personal Data Privacy**: Data protection mechanisms and privacy safeguards  
+- **Financial Fraud Prevention**: Authentication and authorization security measures
+
+**Espressif RED-DA Support:**
+
+- **Pre-Certified Firmware Platforms**: ESP-AT, ESP-ZeroCode, and AWS IoT ExpressLink with built-in compliance features
+- **Three Compliance Pathways**: Self-declaration using Espressif templates, consultancy-assisted assessment, or full conformity assessment via approved testing labs
+- **Documentation Templates**: Ready-to-use risk assessment and technical specification templates
+- **Partner Ecosystem**: Collaboration with Brightsight and CyberWhiz for end-to-end compliance support
+- **Hardware Security Foundation**: Secure boot, flash encryption, and cryptographic accelerators aligned with EN 18031 standards
+
+**Implementation Resources:**
+
+- `ESP32 RED-DA EN18031 Compliance Guide (Part 1) <https://developer.espressif.com/blog/2025/04/esp32-red-da-en18031-compliance-guide/>`_ - Compliance overview and manufacturer responsibilities
+- `ESP32 RED-DA EN18031 Compliance Guide (Part 2) <https://developer.espressif.com/blog/2025/07/esp32-red-da-en18031-compliance-guide-part2/>`_ - Practical compliance strategies and partner support
+
 .. note::
 
-   Certification details are subject to updates. Please refer to the official certification directories or contact Espressif for the most recent status.
+   Certification details are subject to updates. Please contact Espressif support channel for the most recent status.
 
 Related Resources
 -----------------

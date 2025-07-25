@@ -132,7 +132,7 @@ Apply STRIDE methodology to Espressif-based products (both Xtensa and RISC-V arc
 
 *Software Protection*
 
-- Implement memory protection and code isolation (PMS/PMP on RISC-V, MPU on Xtensa)
+- Implement memory protection and code isolation (PMP on RISC-V, PMS on Xtensa)
 - Use hardware cryptographic accelerators for secure operations
 - Consider ESP-TEE framework for RISC-V based SoCs requiring advanced isolation
 - Validate all inputs and implement secure coding practices
