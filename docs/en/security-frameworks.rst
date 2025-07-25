@@ -25,17 +25,20 @@ Architecture Overview
 ESP-TEE implements a dual-domain architecture that provides clear separation between trusted and untrusted execution environments:
 
 **TEE (Trusted Execution Environment):**
+
 - Runs in Machine mode with the highest privilege level
 - Handles all sensitive operations including cryptographic key management
 - Manages secure services and enforces security policies
 - Protected by hardware-based memory isolation mechanisms
 
 **REE (Rich Execution Environment):**
+
 - Runs the main user application in User mode with restricted privileges
 - Interacts with TEE through well-defined secure APIs
 - Cannot directly access TEE memory regions or sensitive resources
 
 **Security Features:**
+
 - Separate memory regions with hardware-enforced access controls
 - Cryptographic isolation between TEE and REE domains
 - Integration with Secure Boot and Flash Encryption for complete system protection
@@ -45,11 +48,13 @@ Implementation Guide
 ~~~~~~~~~~~~~~~~~~~~
 
 **Prerequisites:**
+
 - ESP32-C6 or supported RISC-V based Espressif SoC
 - ESP-IDF v5.5 or later with ESP-TEE support
 - Secure Boot and Flash Encryption enabled (recommended)
 
 **Configuration Steps:**
+
 1. Enable ESP-TEE in the ESP-IDF project configuration (``idf.py menuconfig``)
 2. Configure memory regions and partition tables for TEE and secure storage
 3. Implement TEE services using the provided secure APIs
@@ -57,6 +62,7 @@ Implementation Guide
 5. Verify isolation and security boundaries during testing
 
 **Development Resources:**
+
 - Use ESP-TEE APIs to access secure services from the REE
 - Leverage provided examples for common use cases
 - Follow security best practices for TEE application development
@@ -89,13 +95,16 @@ Further Reading
 ---------------
 
 **Technical Documentation:**
+
 - `ESP-TEE User Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/tee/tee.html>`_ - Comprehensive implementation guide
 - `ESP-TEE API Reference <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/api-reference/tee/index.html>`_ - Complete API documentation
 
 **Resources and Examples:**
+
 - `ESP-TEE Examples Repository <https://github.com/espressif/esp-idf/tree/master/examples/security/tee>`_ - Code examples and tutorials
 - `Announcing ESP-TEE Framework for ESP32-C6 <https://developer.espressif.com/blog/2025/02/announcing-esp-tee/>`_ - Official announcement and overview
 
 **Security Guides:**
+
 - `ESP-IDF Security Overview <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/security.html>`_ - Complete security feature guide
 - :ref:`security_features` - Detailed security feature matrix and capabilities
