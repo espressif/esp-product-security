@@ -1,6 +1,27 @@
 Security Resources
 ==================
 
+ESP-IDF Security Dashboard
+--------------------------
+
+The `ESP-IDF Security Dashboard <https://espressif.github.io/esp-idf-security-dashboard/>`_ is a public vulnerability database that provides comprehensive tracking of security issues across ESP-IDF versions. This essential tool helps developers and manufacturers maintain secure firmware throughout their product lifecycle.
+
+**Key Features:**
+
+- **CVE Mapping**: Maps all known CVEs to their impacted ESP-IDF versions
+- **Version Tracking**: Quickly identifies affected releases and patched versions  
+- **Risk Assessment**: Enables periodic firmware audits for ongoing compliance
+- **Compliance Support**: Essential for regulatory requirements under CRA, RED-DA and similar frameworks
+
+**Usage Recommendations:**
+
+- **Pre-Launch**: Verify firmware against known vulnerabilities before shipping
+- **Post-Launch**: Periodically scan firmware versions against the latest dashboard data
+- **Update Planning**: Use dashboard information to prioritize security updates and OTA deployments
+- **Compliance Documentation**: Reference dashboard findings in regulatory audit documentation
+
+The security dashboard is integrated with ESP-IDF's long-term support policy, ensuring that critical security fixes are tracked and delivered through LTS branches for at least 30 months.
+
 ESP-IDF Security Vulnerabilities Summary
 ----------------------------------------
 
@@ -84,4 +105,11 @@ ESP-IDF Security Vulnerabilities Summary
      - AR2020-002
      - Applicable for ESP-IDF
      - `AR2020-002 <https://www.espressif.com/sites/default/files/advisory_downloads/AR2020-002%20Security%20Advisory%20Concerning%20Wi-Fi%20Authentication%20Bypass%20V1.1%20EN.pdf>`_
+
+Additional Resources
+--------------------
+
+**Security Blog & Updates**
+
+Visit the `Espressif Security Blog <https://developer.espressif.com/tags/security/>`_ for implementation guides, compliance updates, technical deep dives, and the latest security insights for Espressif platforms.
 
