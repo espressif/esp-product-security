@@ -31,4 +31,6 @@ pdf_title = u'ESP Product Security'
 language = 'en'
 
 # doc_id = {'esp32': '4089', 'esp32s2': '4422', 'esp32s3': '5419', 'esp32c2': '5726', 'esp32c3': '5084', 'esp32c6': '6511', 'esp32h2': '6715', 'esp32c5': '8823'}
-# html_js_files = ['js/chatbot_widget_en.js']
+
+# Chatbot widget configuration
+html_js_files = ['js/chatbot_widget_en.js']

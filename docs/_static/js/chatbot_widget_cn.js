@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var script = document.createElement("script");
     script.src = "https://widget.kapa.ai/kapa-widget.bundle.js";
     script.setAttribute("data-bot-protection-mechanism", "hcaptcha");
-    script.setAttribute("data-website-id", "c52cd265-1430-465b-84f7-496b79d56f96");
-    script.setAttribute("data-modal-title", "ESP 硬件设计指南文档 AI 助手");
+    script.setAttribute("data-website-id", "06242a70-70d4-4e21-a547-b9b091ff27d9");
+    script.setAttribute("data-modal-title", "ESP 产品安全");
     script.setAttribute("data-project-color", "#C62817");
     script.setAttribute("data-project-logo", "https://dl.espressif.com/public/logo.png");
     script.setAttribute("data-button-image", "https://dl.espressif.com/chatbot/Chatbot.png");
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("data-user-analytics-fingerprint-enabled", "true");
     script.setAttribute("data-modal-example-questions-title", "问题示例");
     script.setAttribute("data-modal-disclaimer", "欢迎使用乐鑫文档智能问答助手！本助手基于乐鑫的公开文档，旨在为您提供产品和服务的技术支持与解答。如有任何意见或建议，欢迎留下反馈！\n\n**注意**：本回答由 AI 生成，可能存在不准确之处，请核实重要信息。");
-    script.setAttribute("data-modal-example-questions", "ESP32-H2 系列芯片支持哪些外部时钟源？");
+    script.setAttribute("data-modal-example-questions", "ESP32-C6 是经过 PSA 认证的 SoC 吗");
     script.async = true;
     document.head.appendChild(script);
   });

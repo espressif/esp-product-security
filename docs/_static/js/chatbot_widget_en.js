@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var script = document.createElement("script");
     script.src = "https://widget.kapa.ai/kapa-widget.bundle.js";
     script.setAttribute("data-bot-protection-mechanism", "hcaptcha");
-    script.setAttribute("data-website-id", "f6eb2eb0-f481-43d2-ae4f-a4c18acb72d6");
-    script.setAttribute("data-project-name", "ESP Hardware Design Guidelines");
+    script.setAttribute("data-website-id", "06242a70-70d4-4e21-a547-b9b091ff27d9");
+    script.setAttribute("data-project-name", "ESP Product Security");
     script.setAttribute("data-project-color", "#C62817");
     script.setAttribute("data-project-logo", "https://dl.espressif.com/public/logo.png");
     script.setAttribute("data-button-image", "https://dl.espressif.com/chatbot/Chatbot.png");
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     script.setAttribute("data-modal-override-open-class", "test-ai");
     script.setAttribute("data-user-analytics-fingerprint-enabled", "true");
     script.setAttribute("data-modal-disclaimer", "This custom large language model (LLM), trained on official documentation from espressif.com, is designed to provide technical support and answers related to Espressif’s products and services. Give it a try, share your thoughts, and let us know your feedback—we truly appreciate it! \n\n**Note**: AI-generated information may be incomplete or inaccurate. Always verify critical information with official sources.");
-    script.setAttribute("data-modal-example-questions", "What external clock sources does the ESP32-H2 series chip support?");
+    script.setAttribute("data-modal-example-questions", "Is ESP32-C6 PSA Certified SoC?");
     script.async = true;
     document.head.appendChild(script);
   });
