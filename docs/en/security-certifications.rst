@@ -108,6 +108,7 @@ RED-DA Compliance Support
 
 - `ESP32 RED-DA EN18031 Compliance Guide (Part 1) <https://developer.espressif.com/blog/2025/04/esp32-red-da-en18031-compliance-guide/>`_ - Compliance overview and manufacturer responsibilities
 - `ESP32 RED-DA EN18031 Compliance Guide (Part 2) <https://developer.espressif.com/blog/2025/07/esp32-red-da-en18031-compliance-guide-part2/>`_ - Practical compliance strategies and partner support
+- `Espressif + Brightsight RED-DA Webinar <https://www.youtube.com/watch?v=j-qSfqoy_Wg>`_ - Preparing for RED DA (EN 18031) Compliance
 
 .. note::
 

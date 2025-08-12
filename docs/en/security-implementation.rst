@@ -160,7 +160,6 @@ Security Testing Framework
 *Dynamic Analysis*
 
 - Fuzzing of network protocols and APIs
-- Runtime memory error detection (AddressSanitizer)
 - Coverage-guided testing of security-critical functions
 - Behavioral analysis and anomaly detection
 

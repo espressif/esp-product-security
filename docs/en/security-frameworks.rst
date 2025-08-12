@@ -42,7 +42,7 @@ ESP-TEE implements a dual-domain architecture that provides clear separation bet
 - Separate memory regions with hardware-enforced access controls
 - Cryptographic isolation between TEE and REE domains
 - Integration with Secure Boot and Flash Encryption for complete system protection
-- Memory Protection Unit (MPU) enforcement of isolation boundaries
+- PMP/APM/TEE enforced isolation boundaries
 
 Implementation Guide
 ~~~~~~~~~~~~~~~~~~~~
