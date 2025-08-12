@@ -3,7 +3,9 @@
 Security Features
 =================
 
-Espressif SoCs are designed with a comprehensive set of security features to protect devices, data, and communications throughout their lifecycle. Espressif's portfolio includes both **Xtensa** and **RISC-V** based architectures, each offering robust security capabilities with some advanced features like ESP-TEE being exclusive to RISC-V platforms.
+Espressif SoCs are designed with a comprehensive set of security features to protect devices, data, and communications throughout their lifecycle.
+
+Espressif's portfolio includes both **Xtensa** and **RISC-V** based architectures, each offering robust security capabilities with some advanced features like ESP-TEE being exclusive to RISC-V platforms.
 
 This guide provides an overview of the key security mechanisms available across Espressif platforms, with references to the ESP-IDF Programming Guide, SoC Technical Reference Manuals (TRMs), and datasheets for further details.
 
