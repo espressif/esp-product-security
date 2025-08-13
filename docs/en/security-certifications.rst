@@ -3,7 +3,7 @@
 Security Certifications
 =======================
 
-Espressif Systems is committed to delivering secure-by-design solutions for the Internet of Things (IoT). As part of this commitment, we pursue and maintain multiple security certifications across our product portfolio spanning both Xtensa and RISC-V architectures. These certifications validate the robustness of our platform security and assure customers that Espressif SoCs meet recognized industry security standards.
+Espressif Systems is committed to delivering secure-by-design solutions for the Internet of Things (IoT). As part of this commitment, we pursue and maintain multiple security certifications across our product portfolio spanning both **Xtensa** and **RISC-V** architectures. These certifications validate the robustness of our platform security and assure customers that Espressif SoCs meet recognized industry security standards.
 
 This section highlights the key security certifications achieved across Espressif SoCs and Products:
 

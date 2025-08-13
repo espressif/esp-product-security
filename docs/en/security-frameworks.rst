@@ -8,7 +8,30 @@ Espressif provides comprehensive security frameworks designed to establish stron
 ESP-TEE: Trusted Execution Environment
 --------------------------------------
 
-The ESP-TEE (Espressif Trusted Execution Environment) is a RISC-V exclusive security framework that provides hardware-enforced isolation and robust protection for sensitive operations and data on Espressif’s RISC-V based SoCs. ESP-TEE is currently supported on ESP32-C6 (the world’s first PSA Certified Level 2 microcontroller), with future support planned for additional RISC-V based Espressif SoCs including ESP32-C5 and ESP32-C61.
+The **ESP-TEE** (Espressif Trusted Execution Environment) is a **RISC-V exclusive security framework** that provides hardware-enforced isolation and robust protection for sensitive operations and data on Espressif's RISC-V based SoCs. ESP-TEE is currently supported on ESP32-C6 (the world's first PSA Certified Level 2 microcontroller), with future support planned for additional RISC-V based Espressif SoCs including ESP32-C5 and ESP32-C61.
+
+Target SoC Support
+~~~~~~~~~~~~~~~~~~~
+
+.. list-table:: ESP-TEE Framework Target SoC Support
+   :header-rows: 1
+   :widths: 25 25 50
+
+   * - SoC Series
+     - Support Status
+     - Notes
+   * - ESP32-C6
+     - ✅ Supported
+     - Available in ESP-IDF v5.5+, PSA-L2 certified
+   * - ESP32-H2
+     - 🔍 Preview
+     - Early access support available
+   * - ESP32-C5
+     - 🔄 In Pipeline
+     - Planned for future release
+   * - ESP32-C61
+     - 🔄 In Pipeline
+     - Planned for future release
 
 Key Features
 ~~~~~~~~~~~~
