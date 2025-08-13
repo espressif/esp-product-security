@@ -11,7 +11,11 @@ extensions += ['sphinx_copybutton',
                'esp_docs.esp_extensions.dummy_build_system',
                ]
 
+# Disable format_esp_target
+extensions.remove('esp_docs.esp_extensions.format_esp_target')
+
 # link roles config
+project_homepage = 'https://github.com/espressif/esp-product-security'
 github_repo = 'espressif/esp-product-security'
 
 # context used by sphinx_idf_theme
@@ -38,4 +42,4 @@ linkcheck_exclude_documents = ['index',  # several false positives due to the wa
                                ]
 
 # Measurement ID for Google Analytics
-google_analytics_id = 'G-RP8SCKE54N'
+# google_analytics_id = 'G-RP8SCKE54N'

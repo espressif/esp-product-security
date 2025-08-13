@@ -283,7 +283,7 @@ Security Checklist for Production
 Further Reading
 ---------------
 
-- `ESP-IDF Security Overview <https://docs.espressif.com/projects/esp-idf/en/latest/esp32h2/security/security.html>`_
+- `ESP-IDF Security Overview <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c5/security/security.html>`_
 - `NIST Cybersecurity Framework <https://www.nist.gov/cyberframework>`_
 - `OWASP IoT Security Top 10 <https://owasp.org/www-project-internet-of-things/>`_
 - `IEC 62443 Industrial Cybersecurity <https://www.iec.ch/cyber-security>`_

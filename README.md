@@ -2,7 +2,9 @@
 
 This repository hosts the Espressif Product Security Guidelines, which are designed to assist developers in implementing security measures for their products. The guidelines cover a range of topics, including security certifications, platform security, security frameworks and relevant resources. The guidelines are intended to be a comprehensive resource for developers looking to enhance the security of their products and ensure compliance with industry standards.
 
-**Documentation Website:** https://docs.espressif.com/projects/esp-product-security/en/latest/index.html
+## 📚 Documentation Portal
+
+**🔐 ESP Product Security Hub**: https://docs.espressif.com/projects/esp-product-security/
 
 ## Contributions and Feedback
 
