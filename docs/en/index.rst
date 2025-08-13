@@ -83,6 +83,12 @@ This repository contains **Product Security** resources, documentation and guide
             <div class="security-description">CVE database, security advisories and vulnerability management</div>
         </a>
         
+        <a href="security-faq.html" class="security-card">
+            <div class="security-icon">❓</div>
+            <div class="security-title">Security FAQ</div>
+            <div class="security-description">Frequently asked questions about security features, certifications and best practices</div>
+        </a>
+        
         <a href="disclaimer-and-copyright.html" class="security-card">
             <div class="security-icon">⚖️</div>
             <div class="security-title">Legal & Disclaimer</div>
@@ -100,5 +106,6 @@ This repository contains **Product Security** resources, documentation and guide
    security-implementation
    security-response
    security-resources
+   security-faq
    disclaimer-and-copyright
 

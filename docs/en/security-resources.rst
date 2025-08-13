@@ -100,7 +100,7 @@ ESP-IDF Security Vulnerabilities Summary
    * - CVE-2020-26142
      - AR2023-008
      - Applicable for ESP-IDF
-     - `AR2023-008 <https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20Concerning%20FragAttacks%20EN.pdf>`_
+     - `AR2023-008 <https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20v1.1%20EN_0.pdf>`_
    * - CVE-2020-12638
      - AR2020-002
      - Applicable for ESP-IDF

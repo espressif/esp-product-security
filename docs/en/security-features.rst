@@ -233,8 +233,8 @@ Espressif SoCs provide hardware-accelerated digital signature peripherals (RSA, 
 
 - **Key documentation:**
   
-  - `ESP-IDF Digital Signature (DS) Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/ds.html>`_
-  - `ESP-IDF ECDSA Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c5/security/ecdsa.html>`_
+  - `ESP-IDF Digital Signature (DS) Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/api-reference/peripherals/ds.html>`_
+  - `ESP-IDF ECDSA Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c5/api-reference/peripherals/ecdsa.html>`_
   - Refer to the "Digital Signature" and "eFuse" sections in the SoC TRM.
 
 Memory Protection
@@ -281,8 +281,8 @@ Over-the-air updates are supported with secure transport (HTTPS), image signing,
 
 - **Key documentation:**
   
-  - `ESP-IDF Secure OTA Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/ota.html>`_
-  - `ESP-IDF Anti-Rollback Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/anti-rollback.html>`_
+  - `ESP-IDF Secure OTA Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/security.html#secure-ota-over-the-air-updates>`_
+  - `ESP-IDF Anti-Rollback Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/security.html#anti-rollback-protection>`_
 
 Secure Storage
 ~~~~~~~~~~~~~~
@@ -290,7 +290,7 @@ Sensitive data (e.g., Wi-Fi credentials) can be stored in encrypted NVS partitio
 
 - **Key documentation:**
   
-  - `ESP-IDF NVS Encryption Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/nvs_encryption.html>`_
+  - `ESP-IDF NVS Encryption Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/security.html#secure-storage>`_
 
 Secure Device Control
 ~~~~~~~~~~~~~~~~~~~~~

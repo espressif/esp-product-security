@@ -96,8 +96,7 @@ Further Reading
 
 **Technical Documentation:**
 
-- `ESP-TEE User Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/tee/tee.html>`_ - Comprehensive implementation guide
-- `ESP-TEE API Reference <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/api-reference/tee/index.html>`_ - Complete API documentation
+- `ESP-TEE User Guide <https://docs.espressif.com/projects/esp-idf/en/latest/esp32c6/security/tee/index.html>`_ - Comprehensive implementation guide and API documentation
 
 **Resources and Examples:**
 

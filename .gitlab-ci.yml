@@ -21,7 +21,7 @@ build_docs:
   script:
     - cd docs
     - pip install -r requirements.txt
-    - build-docs -l en
+    - build-docs -l en linkcheck
 
 .deploy_docs_template:
   stage: deploy
