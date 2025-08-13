@@ -76,7 +76,7 @@ A: Espressif follows a responsible disclosure process with coordinated vulnerabi
 
 **Q: How can I report a security vulnerability?**
 
-A: Report security vulnerabilities to our security team at security@espressif.com. We appreciate responsible disclosure and will work with you to address valid security issues.
+A: Report security vulnerabilities to our security team at bugbounty@espressif.com. We appreciate responsible disclosure and will work with you to address valid security issues.
 
 **Q: Where can I find security advisories and CVE information?**
 
