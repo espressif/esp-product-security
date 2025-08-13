@@ -95,7 +95,7 @@ A: PSA Certified is a security certification scheme that validates IoT device se
 
 **Q: How do certifications help with my product compliance?**
 
-A: Security certifications like PSA Certified can accelerate your product's compliance with industry standards and regulations, reduce certification costs, and provide assurance to customers and partners about your product's security posture.
+A: Security certifications can accelerate your product's compliance with industry standards and regulations, reduce certification costs, and provide assurance to customers and partners about your product's security posture. RED-DA certification is an example of such compliance and its mandatory for radio devices in the EU.
 
 **Q: Do I need additional certifications beyond what Espressif provides?**
 
@@ -106,12 +106,12 @@ Best Practices
 
 **Q: What are the essential security practices for IoT products?**
 
-A: Essential practices include enabling secure boot and flash encryption, implementing secure communications (TLS/SSL), regular security updates, proper key management, input validation, and following the principle of least privilege.
+A: Essential practices include enabling secure boot and flash encryption, implementing secure communications (TLS/SSL), regular security updates, proper key management, input validation, and following the principle of least privilege. Multiple countermeasures should be applied to mitigate risks from local, remote network and physical attack vectors.
 
 **Q: How do I secure communication between my device and cloud services?**
 
-A: Use TLS/SSL with certificate validation for all communications. Implement proper certificate management, consider mutual authentication (mTLS), and ensure secure credential provisioning during manufacturing.
+A: Use TLS/SSL with certificate validation for all communications. Implement proper certificate management, consider mutual authentication, and ensure secure credential provisioning during manufacturing.
 
 **Q: What should I consider for secure manufacturing and provisioning?**
 
-A: Implement secure key provisioning, unique device identities, secure firmware installation, and proper test key removal. Consider using secure manufacturing services and Hardware Security Modules (HSMs) for key generation and management.
+A: Implement secure key provisioning, unique device identities, secure firmware installation, and proper test key removal. Consider using Espressif's secure manufacturing service to streamline the process.

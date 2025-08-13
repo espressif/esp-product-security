@@ -25,7 +25,7 @@ Security-by-Design Workflow
 3. **Security Architecture Planning**
    
    - Select appropriate Espressif SoC with required security features
-   - Plan hardware security module (HSM) integration if needed
+   - Select System-In-Package (SiP) with flash/PSRAM pins internally terminated for hardened security
    - Design secure boot and attestation architecture
    - Plan network security and communication protocols
 
